@@ -1,0 +1,18 @@
+<div class="container row justify-content-between">
+    <h1 class="col-4"> Task's details </h1>
+    <p class="col-4"> <%= link_to "Edit this task", edit_task_path, class: "btn btn-primary" %> </p>
+  </div>
+</div>
+
+<div class="details">
+  <%= @task.details %>
+
+  <% if @task.completed == true %>
+    <p><input type="checkbox" class="checkboxes" checked>This task is completed ! </p>
+  <% else %>
+    <p><input type="checkbox" class="checkboxes" >This task is NOT completed ! </p>
+  <% end %>
+  </div>
+<div>
+<%= link_to "Get back to full list", tasks_path, class: "btn btn-primary" %>
+</div>

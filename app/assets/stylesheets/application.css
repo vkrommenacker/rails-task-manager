@@ -13,3 +13,33 @@
  *= require_tree .
  *= require_self
  */
+
+h1 {
+  margin-left: 10px;
+}
+ .no-bullets {
+  list-style-type: none;
+}
+
+.todo {
+  text-decoration: none;
+}
+
+.btn {
+  margin-left: 10px;
+  margin-top: 10px;
+}
+
+.details {
+  padding: 10px;
+  background-color: lightgray;
+}
+
+.label {
+  width: 20%;
+}
+
+.field {
+  width: 70%;
+  align-content: left;
+}
